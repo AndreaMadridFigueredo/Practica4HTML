@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Formularis HTML</title>
+        <link rel="stylesheet" href="Styleformularis.css">
+    </head>
+    <body>
+        <h1>Subscriu-te al noticiari ITIC Barcelona</h1>
+        <br>
+        <form action="formulari_enviat.html">
+        <p>Primer, explica'ns qui ets</p> 
+        <br>
+        <br>
+            <label for="Email"> Email:</label>
+            <input type="text" id="Email" class="amplada" required>
+            <br>
+            <br>
+            <label for="Nom i cognoms"> Nom i cognoms:</label>
+            <input type="text" id="Nom i cognoms:" class="input-amplada" required>
+            <br>
+            <br>
+            <label for="Edat"> Edat:</label>
+            <input type="number" id="Edat" id="numerica" required>
+            <br>
+            <br>
+            <br>
+        <p>Cuál es tu personaje femeni favorito de la serie?</p>
+        <br>
+            <input type="radio" id="Blair" name="cicle" value="Blair"checked>
+            <label for="Blair">Blair</label>
+            <br>
+            <input type="radio" id="Serena" name="cicle" value="Serena">
+            <label for="Serena">Serena</label>
+            <br>
+            <input type="radio" id="Jenny" name="cicle" value="Jenny">
+            <label for="Jenny">Jenny</label>
+            <br>
+            <br>
+        <p>I personatge masculi?</p>
+            <label for="personatge_masc"> personatge masculi</label>
+            <select name="personatge_masc" id="personatge masculi"required>
+                <option value="opcion1" selected>Chuck</option>
+                <option value="opcion2">Dan</option>
+                <option value="opcion2">Nate</option>
+            </select>
+            <br>
+            <br>
+        <p>Marca els temes que vulguis estar sempre al dia!</p>
+            <input type="checkbox" id="tema1" name="tema1" value="Cuernos">
+            <label for="tema1"> Cuernos</label><br>
+            <input type="checkbox" id="tema2" name="tema2" value="Defunciones">
+            <label for="tema2"> Defunciones</label><br>
+            <input type="checkbox" id="tema3" name="tema3" value="Adopciones">
+            <label for="tema3"> Adopciones</label><br>
+            <input type="checkbox" id="tema4" name="tema4" value="Herencias">
+            <label for="tema4"> Herencias</label><br>
+        <br>
+        <br>
+        <p>Hi ha alguna xafarderia més que t'interessi? Explica'ns-ho </p>
+        <textarea name="xafarderia" rows="10" cols="40" required>També m'agradaria saber les últimes novetats sobre...</textarea><br>
+        <br>
+        <button type ="submit" class="btn-personalitzat" >Subscriu-me</button>
+        </form>
+    </body>
+</html>

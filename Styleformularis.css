@@ -1,0 +1,27 @@
+body {background-color: rgb(126, 50, 50);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.amplada {
+    width: 300px;
+}
+#numerica {
+    width: 100px;
+}
+.btn-personalitzat {
+    width: 150px;             /* Mida predefinida */
+    height: 50px;             /* Mida predefinida */
+    background-color: #db9334; /* Color sólido de fondo */
+    border: none;             /* Quitar bordes para que el color de fondo sea sólido */
+    color: white;             /* Color del texto del botón */
+    cursor: pointer;          /* Cambia el cursor a una mano cuando se pasa por encima */
+    transition: background-color 0.3s; /* Transición suave de los colores */
+}
+
+.btn-personalitzat:hover {
+    background-color: #b95429; /* Color de fondo cuando el ratón pasa por encima */
+}
+
+*:focus{
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.7);
+    transition: box-shadow 0.8s ease-in-out;
+}
